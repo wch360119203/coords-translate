@@ -1,7 +1,7 @@
 {
   "name": "@wuch96/coords-translate",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "homepage": "https://github.com/wch360119203/coords-translate",
   "scripts": {
@@ -23,8 +23,5 @@
       "import": "./dist/coords-translate.js",
       "require": "./dist/coords-translate.umd.cjs"
     }
-  },
-  "dependencies": {
-    "@wuch96/coords-translate": "^0.0.0"
   }
 }
