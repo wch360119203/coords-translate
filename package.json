@@ -1,9 +1,13 @@
 {
   "name": "@wuch96/coords-translate",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "homepage": "https://github.com/wch360119203/coords-translate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wch360119203/coords-translate.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,5 +27,8 @@
       "import": "./dist/coords-translate.js",
       "require": "./dist/coords-translate.umd.cjs"
     }
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
