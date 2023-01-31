@@ -1,0 +1,25 @@
+{
+  "name": "@wuch96/coords-translate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^1.7.2"
+  },
+  "main": "./dist/coords-translate.umd.cjs",
+  "module": "./dist/coords-translate.js",
+  "types": "./dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/coords-translate.js",
+      "require": "./dist/coords-translate.umd.cjs"
+    }
+  }
+}
