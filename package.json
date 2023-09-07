@@ -1,7 +1,7 @@
 {
   "name": "@wuch96/coords-translate",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "homepage": "https://github.com/wch360119203/coords-translate",
   "repository": {
@@ -21,14 +21,17 @@
   "license": "LGPL",
   "main": "./dist/coords-translate.umd.cjs",
   "module": "./dist/coords-translate.js",
-  "types": "./dist/types/main.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/types/main.d.ts",
       "import": "./dist/coords-translate.js",
       "require": "./dist/coords-translate.umd.cjs"
     }
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
